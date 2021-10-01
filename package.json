@@ -1,0 +1,25 @@
+{
+  "name": "api-shopping-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -e js -r dotenv/config ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Emanuele Furlani",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13",
+    "notenv": "^2.0.3"
+  }
+}
